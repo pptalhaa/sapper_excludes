@@ -4,12 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flake8 = "*"
-yapf = "*"
-isort = "*"
-ipython = "==5.10.0"
 
 [requires]
 python_version = "2.7"
 
 [dev-packages]
+flake8 = "*"
+yapf = "*"
+isort = "*"
+ipython = "==5.10.0"
+pylint = "*"

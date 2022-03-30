@@ -2,8 +2,9 @@
     "extraPaths": [
         "/mnt/pipeline/sapper/external/python",
         "/mnt/pipeline/sapper/external/posix/python",
+        "/mnt/pipeline/sapper/external/common/python2.7",
         "/mnt/pipeline/sapper/external/common/python2",
-        "/mnt/pipeline/sapper/python"
+        "/mnt/pipeline/sapper/external/common/python",
     ],
     "venvPath": "/homes/talhaa/.local/share/virtualenvs",
     "venv": "sapper-ItZEOGt3",

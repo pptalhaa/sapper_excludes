@@ -1,0 +1,80 @@
+{
+    "extraPaths": [
+        "/mnt/pipeline/sapper/external/python",
+        "/mnt/pipeline/sapper/external/posix/python",
+        "/mnt/pipeline/sapper/external/common/python2",
+        "/mnt/pipeline/sapper/python"
+    ],
+    "venvPath": "/homes/talhaa/.local/share/virtualenvs",
+    "venv": "sapper-ItZEOGt3",
+    "pythonVersion": 2.7,
+    "pythonPlatform": "Linux",
+    "typeCheckingMode": "off",
+    "executionEnvironments": [
+        {
+            "root": "./pp_apps",
+            "extraPaths": [
+                "./pp_apps",
+                "./python",
+                "/mnt/pipeline/sapper/pp_apps",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/maya",
+            "extraPaths": [
+                "./apps/maya/all/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/maya/all/python",
+                "/mnt/pipeline/sapper/python",
+                "./completion/py",
+                "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            ]
+        },
+        {
+            "root": "./apps/houdini",
+            "extraPaths": [
+                "./apps/houdini/all/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/houdini/all/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/nuke",
+            "extraPaths": [
+                "./apps/nuke/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/nuke/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/qube",
+            "extraPaths": [
+                "./apps/qube/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/qube/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/photoshop",
+            "extraPaths": [
+                "./apps/photoshop/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/photoshop/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/shotgun",
+            "extraPaths": [
+                "./apps/shotgun/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/shotgun/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+    ]
+}

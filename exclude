@@ -7,6 +7,13 @@
 
 #pyright lsp
 pyrightconfig.json
+_scrap.py
+_scrap
+_scrap.mel
+
+
+# nuke vim result buffer
+__nukevim__
 
 
 # We don't need to repo these

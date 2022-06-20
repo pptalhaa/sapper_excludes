@@ -28,7 +28,21 @@
                 "./python",
                 "/mnt/pipeline/sapper/apps/maya/all/python",
                 "/mnt/pipeline/sapper/python",
-                "./completion/py",
+                "./completion/maya/2018/py",
+                "/mnt/production/S9004_PPLN_talhaa/_sys/apps/arnold/5.4.0.0/mtoa/maya_2018.4/mtoa_3_3_0_maya2018/scripts",
+                "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            ]
+        },
+        {
+            "root": "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            "extraPaths": [
+                 "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            ]
+        },
+        {
+            "root": "/mnt/production/S9004_PPLN_talhaa/_sys/apps/arnold/5.4.0.0/mtoa/maya_2018.4/mtoa_3_3_0_maya2018/scripts",
+            "extraPaths": [
+                "/mnt/production/S9004_PPLN_talhaa/_sys/apps/arnold/5.4.0.0/mtoa/maya_2018.4/mtoa_3_3_0_maya2018/scripts/",
                 "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
             ]
         },
@@ -44,10 +58,13 @@
         {
             "root": "./apps/nuke",
             "extraPaths": [
-                "./apps/nuke/python",
+                "./apps/nuke/all/python",
                 "./python",
-                "/mnt/pipeline/sapper/apps/nuke/python",
+                "/mnt/pipeline/sapper/apps/nuke/all/python",
                 "/mnt/pipeline/sapper/python",
+                "./completion/nuke/py/",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/plugins/",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/lib/python2.7"
             ]
         },
         {
@@ -74,6 +91,15 @@
                 "./apps/shotgun/python",
                 "./python",
                 "/mnt/pipeline/sapper/apps/shotgun/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/deadline",
+            "extraPaths": [
+                "./apps/deadline/all/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/deadline/all/python",
                 "/mnt/pipeline/sapper/python",
             ]
         },

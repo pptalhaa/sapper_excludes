@@ -1,0 +1,163 @@
+{
+    "extraPaths": [
+        "./python",
+        "/mnt/pipeline/sapper/external/python",
+        "/mnt/pipeline/sapper/external/posix/python",
+        "/mnt/pipeline/sapper/external/common/python2.7",
+        "/mnt/pipeline/sapper/external/common/python2",
+        "/mnt/pipeline/sapper/external/common/python",
+    ],
+    "venvPath": "/homes/talhaa/.local/share/virtualenvs",
+    "venv": "sapper-ItZEOGt3",
+    "pythonVersion": 2.7,
+    "pythonPlatform": "Linux",
+    "typeCheckingMode": "off",
+    "executionEnvironments": [
+        {
+            "root": "./pp_apps",
+            "extraPaths": [
+                "./pp_apps",
+                "./python",
+                "/mnt/pipeline/sapper/pp_apps",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/maya",
+            "extraPaths": [
+                "./apps/maya/all/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/maya/all/python",
+                "/mnt/pipeline/sapper/python",
+                "./completion/maya/2018/py",
+                "/mnt/production/S9004_PPLN_talhaa/_sys/apps/arnold/5.4.0.0/mtoa/maya_2018.4/mtoa_3_3_0_maya2018/scripts",
+                "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            ]
+        },
+        {
+            "root": "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            "extraPaths": [
+                 "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            ]
+        },
+        {
+            "root": "/mnt/production/S9004_PPLN_talhaa/_sys/apps/arnold/5.4.0.0/mtoa/maya_2018.4/mtoa_3_3_0_maya2018/scripts",
+            "extraPaths": [
+                "/mnt/production/S9004_PPLN_talhaa/_sys/apps/arnold/5.4.0.0/mtoa/maya_2018.4/mtoa_3_3_0_maya2018/scripts/",
+                "/mnt/software/packages/Autodesk/maya/2018.4/lib/python2.7/site-packages/",
+            ]
+        },
+        {
+            "root": "./apps/houdini",
+            "extraPaths": [
+                "./apps/houdini/all/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/houdini/all/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/nuke",
+            "extraPaths": [
+                "./apps/nuke/all/python",
+                "./apps/nuke/all",
+                "./python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/nuke/all/python",
+                "/mnt/pipeline/sapper/apps/nuke/all",
+                "/mnt/pipeline/sapper/python",
+                "./completion/nuke/py/",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/plugins/",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/lib/python2.7"
+            ]
+        },
+        {
+            "root": "./apps/hiero",
+            "extraPaths": [
+                "./apps/hiero/all/Python",
+                "./python",
+                "/homes/talhaa/.nuke",
+                "/homes/talhaa/.nuke/Python",
+                "/homes/talhaa/.nuke/Python/Startup",
+                "/homes/talhaa/.nuke/Python/StartupUI",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/pythonextensions/site-packages",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/plugins/",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/lib/python2.7",
+                "/mnt/software/packages/Foundry/Nuke/12.2v6/configs",
+                "/homes/talhaa/sapper/apps/hiero/all",
+                "/homes/talhaa/sapper/apps/hiero/nuke12x/Python/Startup",
+                "/homes/talhaa/sapper/apps/hiero/nuke12x/Python/StartupUI",
+                "/homes/talhaa/sapper/apps/hiero/all/Python",
+                "/homes/talhaa/sapper/apps/hiero/all/Python/Startup",
+                "/homes/talhaa/sapper/apps/hiero/all/Python/StartupUI",
+                "/homes/talhaa/_sys/apps/hiero/all",
+                "/homes/talhaa/_sys/apps/hiero/all/Python",
+                "/homes/talhaa/_sys/apps/hiero/all/Python/Startup",
+                "/homes/talhaa/_sys/apps/hiero/all/Python/StartupUI",
+                "/mnt/pipeline/sapper/python",
+                "/mnt/pipeline/sapper/apps/hiero/12.2v6",
+                "/mnt/pipeline/sapper/apps/hiero/all",
+                "/mnt/pipeline/sapper/apps/hiero/all/icons",
+                "/mnt/pipeline/sapper/apps/hiero/12.2v6/Python",
+                "/mnt/pipeline/sapper/apps/hiero/12.2v6/Python/Startup",
+                "/mnt/pipeline/sapper/apps/hiero/12.2v6/Python/StartupUI",
+                "/mnt/pipeline/sapper/apps/hiero/all/Python",
+                "/mnt/pipeline/sapper/apps/hiero/all/Python/Startup",
+                "/mnt/pipeline/sapper/apps/hiero/all/Python/StartupUI"
+            ]
+        },
+        {
+            "root": "./apps/qube",
+            "extraPaths": [
+                "./apps/qube/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/qube/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/photoshop",
+            "extraPaths": [
+                "./apps/photoshop/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/photoshop/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/rv",
+            "extraPaths": [
+                "./apps/rv/all/python",
+                "./python",
+                "./python/pp_farm/submitters",
+                "./python/pp_io/post",
+                "/mnt/pipeline/sapper/apps/rv/all/python",
+                "/mnt/pipeline/sapper/python",
+                "/mnt/pipeline/sapper/external/common/python",
+                "/mnt/pipeline/sapper/external/posix/python",
+                "/mnt/pipeline/sapper/python/pp_farm/submitters",
+                "/mnt/pipeline/sapper/external/posix/lib/python2.7/site-packages",
+                "/mnt/software/packages/Shotgun/rv/2021.1.0/plugins/Python",
+                "/mnt/software/packages/Shotgun/rv/2021.1.0/python2/lib/python2.7/site-packages/",
+            ]
+        },
+        {
+            "root": "./apps/shotgun",
+            "extraPaths": [
+                "./apps/shotgun/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/shotgun/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+        {
+            "root": "./apps/deadline",
+            "extraPaths": [
+                "./apps/deadline/all/python",
+                "./python",
+                "/mnt/pipeline/sapper/apps/deadline/all/python",
+                "/mnt/pipeline/sapper/python",
+            ]
+        },
+    ]
+}
